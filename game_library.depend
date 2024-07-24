@@ -1,0 +1,205 @@
+# depslib dependency file v1.0
+1709051661 source:c:\users\tejsa\onedrive\desktop\formation programation\language_c\lecons\s14 _les_modules\51_tp_module\main.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+	"morpion.h"
+	"outils.h"
+
+1709049778 c:\users\tejsa\onedrive\desktop\formation programation\language_c\lecons\s14 _les_modules\51_tp_module\jeux.h
+
+1709044974 c:\users\tejsa\onedrive\desktop\formation programation\language_c\lecons\s14 _les_modules\51_tp_module\morpion.h
+
+1709052286 source:c:\users\tejsa\onedrive\desktop\formation programation\language_c\lecons\s14 _les_modules\51_tp_module\jeux.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+	"morpion.h"
+	"outils.h"
+
+1709044974 source:c:\users\tejsa\onedrive\desktop\formation programation\language_c\lecons\s14 _les_modules\51_tp_module\morpion.c
+	<stdio.h>
+	<stdlib.h>
+	"morpion.h"
+
+1709049450 source:c:\users\tejsa\onedrive\desktop\formation programation\language_c\lecons\s14 _les_modules\51_tp_module\outils.c
+
+1709050574 c:\users\tejsa\onedrive\desktop\formation programation\language_c\lecons\s14 _les_modules\51_tp_module\outils.h
+	<stdio.h>
+	<stdlib.h>
+
+1709052140 source:c:\users\tejsa\onedrive\desktop\formation programation\language_c\lecons\s14 _les_modules\51_tp_module\master_mind.c
+	<stdio.h>
+	<stdlib.h>
+	"master_mind.h"
+
+1709052375 c:\users\tejsa\onedrive\desktop\formation programation\language_c\lecons\s14 _les_modules\51_tp_module\master_mind.h
+
+1711471994 source:c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\main.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+	"morpion.h"
+	"outils.h"
+
+1711471994 c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\jeux.h
+
+1709044974 c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\morpion.h
+
+1709050574 c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\outils.h
+	<stdio.h>
+	<stdlib.h>
+
+1711472594 source:c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\morpion.c
+	<stdio.h>
+	<stdlib.h>
+	"morpion.h"
+
+1709049450 source:c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\outils.c
+
+1711472320 source:c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\jeux.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+	"morpion.h"
+	"outils.h"
+	"master_mind.h"
+	"pendu.h"
+	"juste_prix.h"
+
+1709052375 c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\master_mind.h
+
+1711472649 source:c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\master_mind.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"master_mind.h"
+
+1711472597 source:c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\juste_prix.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"juste_prix.h"
+
+1711472597 source:c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\pendu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pendu.h"
+
+1711472013 c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\pendu.h
+
+1711472320 c:\users\tejsa\onedrive\desktop\formation programation\c#\lecons\s14 _les_modules\51_tp_module\juste_prix.h
+
+1711476295 source:c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\jeux.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+	"morpion.h"
+	"outils.h"
+	"master_mind.h"
+	"pendu.h"
+	"juste_prix.h"
+
+1711475594 c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\jeux.h
+
+1709048574 c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\morpion.h
+
+1709054174 c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\outils.h
+	<stdio.h>
+	<stdlib.h>
+
+1709055975 c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\master_mind.h
+
+1711475613 c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\pendu.h
+
+1711475920 c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\juste_prix.h
+
+1711476197 source:c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\juste_prix.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"juste_prix.h"
+
+1711475594 source:c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\main.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+	"morpion.h"
+	"outils.h"
+
+1711476249 source:c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\master_mind.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"master_mind.h"
+
+1711476194 source:c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\morpion.c
+	<stdio.h>
+	<stdlib.h>
+	"morpion.h"
+
+1709053050 source:c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\outils.c
+
+1711476197 source:c:\users\tejsa\onedrive\desktop\formation programation\c\lecons\s14 _les_modules\51_tp_module\pendu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pendu.h"
+
+1711476295 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\jeux.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+	"morpion.h"
+	"outils.h"
+	"master_mind.h"
+	"pendu.h"
+	"juste_prix.h"
+
+1711475594 c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\jeux.h
+
+1709048574 c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\morpion.h
+
+1709054174 c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\outils.h
+	<stdio.h>
+	<stdlib.h>
+
+1709055975 c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\master_mind.h
+
+1711475613 c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\pendu.h
+
+1711475920 c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\juste_prix.h
+
+1711476197 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\juste_prix.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"juste_prix.h"
+
+1711475594 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\main.c
+	<stdio.h>
+	<stdlib.h>
+	"jeux.h"
+	"morpion.h"
+	"outils.h"
+
+1711476249 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\master_mind.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"master_mind.h"
+
+1711476194 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\morpion.c
+	<stdio.h>
+	<stdlib.h>
+	"morpion.h"
+
+1709053050 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\outils.c
+
+1711476197 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\pendu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pendu.h"
+
