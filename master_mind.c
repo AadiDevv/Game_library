@@ -19,11 +19,11 @@ void masterMind()
 //variables
     const char COULEUR[] = {'R','B','J','V','O'};
 
-    char saisie_ut[TAILLE_CODE];
-    char code[TAILLE_CODE];
+    char saisie_ut[TAILLE_CODE] = {0};
+    char code[TAILLE_CODE] = {0};
 
-    int tentative;
-    int rejouer;
+    int tentative = 0 ;
+    int rejouer = 0;
 
 do
 {
@@ -54,7 +54,7 @@ do
 
 //saisie utilisateur
     printf("Trouver le code de %d couleurs\n ",TAILLE_CODE);
-    printf("COULEUR [ rouge(R) - bleu(B) - jaune(J) - vert(V) - orange(O) ]\n");
+    printf("COULEUR [ rouge(R) - bleu(B) - jaune(J) - vert(V) - orange(O) ]\n\n");
 
     tentative = 0;
    do
@@ -68,10 +68,11 @@ do
 
 //Controle saisie
 
-
-        if (verifSaisie(COULEUR,saisie_ut,NB_COULEUR,TAILLE_CODE)!=0)
-            printf("ERREUR un ou plusieurs caractere ne sont pas conforme\n");
-
+        verif = 0;
+        if (verifSaisie(COULEUR,saisie_ut,NB_COULEUR,TAILLE_CODE)!=0){
+              printf("\nERREUR un ou plusieurs caractere ne sont pas conforme\n\n");
+            verif++;
+            }
         }while(verif != 0);
         tentative++;
 
@@ -95,15 +96,15 @@ do
 
     if(c_bp == TAILLE_CODE)
     {
-        printf("Bravo vouis avez trouver le code couleur\n");
+        printf("\nBravo vouis avez trouver le code couleur\n");
         printf("Vous etes le MASTERMIND");
         break;
     }
     else
     {
-        printf("tentative %d/%d\n",tentative,TENTATIVE_MAX);
+        printf("\ntentative %d/%d\n",tentative,TENTATIVE_MAX);
         printf("Couleur bien place : %d\n",c_bp);
-        printf("Couleur presente : %d\n",c_presente);
+        printf("Couleur presente : %d\n\n",c_presente);
     }
 
 
@@ -112,7 +113,7 @@ do
 //Message defaite
     if(tentative == TENTATIVE_MAX)
     {
-        printf("PERDU ! Le code couleur etait");
+        printf("\nPERDU ! Le code couleur etait: ");
     }
         afficherCode(code,TAILLE_CODE);
 

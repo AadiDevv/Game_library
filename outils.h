@@ -3,7 +3,7 @@
 //#define DEBUG
 //1
 #define VERSION "V1"
-#define AUTEUR "Aaditya <satyalaaditya@hotmail.fr>"
+#define AUTEUR "Aaditya <satyal.a.tech@gmail.com>"
 //2
 #define A_PROPOS(titre) printf("\n%s\n",titre);\
                         printf("\tVersion : %s (%s,%s)\n",VERSION,__DATE__,__TIME__);\

@@ -8,14 +8,14 @@
 
 int main()
 
-{   A_PROPOS("Bibliotheque de Jeux\n");
+{   A_PROPOS("|---< GAME LIBRARY >---|\n");
     int choix = 0;
     do
     {
     afficherBibliotheque();
     choix = 0;
 
-     printf("\nA quel jeu voulez-vous jouer? >\t");
+     printf("\nA quel jeu voulez-vous jouer?   >\t");
      fflush(stdin);
      scanf("%d", &choix);
 

@@ -60,7 +60,7 @@ void saisieUtilisateur(char grille[][3], char joueur, int* p_coord_x, int* p_coo
 {
     do
     {
-        printf("Joueur %c ou voullez-vous jouer?\n", joueur);
+        printf("\nJoueur %c ou voullez-vous jouer?\n", joueur);
 
         fflush(stdin);
         printf("en x:");
