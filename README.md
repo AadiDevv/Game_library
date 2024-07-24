@@ -3,11 +3,11 @@
 Game library est un projet entièrement codé en langage C, offrant l’accès à l’utilisateur à une bibliothèque de jeux. À son lancement, le programme affiche une interface d'accueil dans le terminal, permettant de choisir et de jouer à 4 grands classiques.
 
 ## Jeux disponibles
-1 - **Morpion**
-2 - **Mastermind**
-3 - **Pendu**
-4 - **Juste Prix**
-0 - Sortie
+1 - **Morpion**  
+2 - **Mastermind**  
+3 - **Pendu**  
+4 - **Juste Prix**  
+0 - Sortie  
 
 
 Chaque jeu est soigneusement conçu pour gérer tous les scénarios possibles, y compris les cas de victoire, de défaite, de mauvaise saisie utilisateur et de match nul lorsque cela est pertinent. À la fin de chaque partie, le joueur a le choix de rejouer ou de revenir à l'interface d'accueil.
