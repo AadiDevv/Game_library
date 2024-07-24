@@ -1,6 +1,8 @@
 # Game Library
 
-Game library est un projet entièrement codé en langage C, offrant l’accès à l’utilisateur à une bibliothèque de jeux. À son lancement, le programme affiche une interface d'accueil dans le terminal, permettant de choisir et de jouer à 4 grands classiques.
+Game library est un projet entièrement codé en langage C, offrant l’accès à l’utilisateur à une bibliothèque de jeux. À son lancement, le programme affiche une interface d'accueil dans le terminal, permettant de choisir et de jouer à 4 grands classiques.  
+
+*ACCEUIL*
 
 ## Jeux disponibles
 1 - **Morpion**  
