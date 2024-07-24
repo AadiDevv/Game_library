@@ -17,7 +17,7 @@ void juste_prix()
     int nb_aleatoire = 0, nb_ut = 0;
     int tentative = 1;
     int rejouer = 0;
-
+    int result = 0;
 do
 {
     //generation nb aleatoire
@@ -29,21 +29,48 @@ do
 
 
     do
-    {   printf("> ");
-        scanf("%d",&nb_ut);
+    {
+        //saisie ut et gestion des erreurs
+        do {
+            printf("> ");
+            result = scanf("%d", &nb_ut);
+
+            // Vider le buffer d'entrée si l'entrée n'est pas un nombre valide
+            if (result != 1 || nb_ut<0 || nb_ut>100) {
+                while (getchar() != '\n'); // Ignore tous les caractères jusqu'à la fin de la ligne
+                printf("\nErreur, veuillez saisir un nombre entier compris entre [0-100]\n\n");
+            }
+        } while (result != 1);
+
+
+        int distance = nb_ut-nb_aleatoire;
 
         //Cas +
-        if (nb_ut < nb_aleatoire)
-            printf("\n%d.C'est plus que %d\n\n", tentative,nb_ut);
+        if (nb_ut < nb_aleatoire){
+             if((distance) > -5)
+                printf("\n%d.Tu brule! c'est un peu plus que %d\n\n", tentative,nb_ut);
+            else if((distance) >= -10)
+                printf("\n%d.Tu te rappronche... c'est plus que %d\n\n", tentative,nb_ut);
+            else
+                printf("\n%d.C'est plus que %d\n\n", tentative,nb_ut);
+        }
+
 
         //Cas -
-        if (nb_ut > nb_aleatoire)
-            printf("\n%d.C'est moin que %d\n\n", tentative,nb_ut);
+        if (nb_ut > nb_aleatoire){
+            if((distance) < 5)
+                printf("\n%d.Tu brule! c'est un peu moin que %d\n\n", tentative,nb_ut);
+            else if(distance <= 10)
+                printf("\n%d.Tu te rappronche... c'est moin que %d\n\n", tentative,nb_ut);
+            else
+                printf("\n%d.C'est moin que %d\n\n", tentative,nb_ut);
+        }
+
 
         //Cas victoire
         if (nb_ut == nb_aleatoire)
            {
-            printf("\nBRAVO! Victoire en %d essaie! Le juste prix etait %d\n",tentative,nb_aleatoire);
+            printf("\nBRAVO! Victoire en %d essaie! Le juste prix etait bien %d\n",tentative,nb_aleatoire);
             break;
            }
 
