@@ -38,19 +38,33 @@ GameLibrary/
 ```
 
 ## Fonctionnalités
-- **Interface d'accueil** : Sélection des jeux option pour quitter.
-- **Gestion des cas de jeu** : Victoire, défaite, match nul, mauvaise saisie utilisateur.
-- **Choix après chaque partie** : Rejouer ou revenir à l'interface d'accueil.
+
+**Interface d'accueil :**
+   - Sélection des jeux.
+   - Option pour quitter le programme.
+
+**Jeux inclus :**
+   - Morpion : Jouez au classique tic-tac-toe.
+   - Mastermind : Devinez la combinaison de couleurs.
+   - Pendu : Trouvez le mot avant d'être "pendu".
+   - Juste Prix : Devinez le prix juste d'un article.
+
+**Gestion des cas de jeu :**
+   - Victoire : Reconnaît et annonce la victoire du joueur.
+   - Défaite : Gère les scénarios de défaite.
+   - Match nul : Reconnaît les situations de match nul (pour les jeux où cela s'applique).
+   - Mauvaise saisie utilisateur : Détecte et gère les entrées incorrectes.
 
 ## Comment jouer
-1. **Cloner le dépôt GitHub** :
+1. **Cloner le dépôt GitHub** :  
+   *Dans un terminal*
    ```bash
    git clone https://github.com/AadiDevv/Game_library.git
    cd Game_library
    ```
 
-2. **Compiler le programme** :
-   Utilisez un compilateur C pour compiler le programme. Voici quelques exemples de compilateurs que vous pouvez utiliser :
+3. **Compiler le programme** :
+   Utilisez un compilateur C pour compiler le programme. Voici un exemple de compilateur que vous pouvez utiliser :
    - **GCC** (GNU Compiler Collection) :
      ```bash
      gcc -o Game_library source/main.c source/jeux.c source/juste_prix.c source/master_mind.c source/morpion.c source/outils.c source/pendu.c -Iheaders
@@ -58,10 +72,17 @@ GameLibrary/
 
    - **Code::Blocks** (utilisez l'interface graphique pour ajouter les fichiers source et les headers, puis compilez le projet).
 
-3. **Lancer le programme** :
+4. **Lancer le programme** :
    ```bash
    ./GameLibrary
    ```
 
-4. **Suivre les instructions** :
+5. **Suivre les instructions** :
    Une fois le programme lancé, suivez les instructions à l'écran pour choisir un jeu ou quitter la bibliothèque.
+
+*Je vous remercie d'avoir pris le temps de découvrir et d'utiliser GameLibrary. Si vous avez des questions, des suggestions ou des retours, n'hésitez pas à me contacter.*
+
+## Contact
+
+Email : satyal.a.tech@gmail.com
+
