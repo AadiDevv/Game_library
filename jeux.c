@@ -29,7 +29,7 @@ void selectionJeux (int saisie)
     break;
 
     case 3 : printf("\nDemarage du PENDU...\n");
-            pendue();
+            pendu();
     break;
 
     case 4 : printf("\nDemarage du JUSTE PRIX...\n");

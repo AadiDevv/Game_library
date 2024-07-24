@@ -29,21 +29,21 @@ do
 
 
     do
-    {   printf(">");
+    {   printf("> ");
         scanf("%d",&nb_ut);
 
         //Cas +
         if (nb_ut < nb_aleatoire)
-            printf("-%d-\nC'est plus que %d\n\n", tentative,nb_ut);
+            printf("\n%d.C'est plus que %d\n\n", tentative,nb_ut);
 
         //Cas -
         if (nb_ut > nb_aleatoire)
-            printf("-%d-\nC'est moin que %d\n\n", tentative,nb_ut);
+            printf("\n%d.C'est moin que %d\n\n", tentative,nb_ut);
 
         //Cas victoire
         if (nb_ut == nb_aleatoire)
            {
-            printf("\nBRAVO gagner en %d essaie! Le juste prix est %d\n",tentative,nb_aleatoire);
+            printf("\nBRAVO! Victoire en %d essaie! Le juste prix etait %d\n",tentative,nb_aleatoire);
             break;
            }
 

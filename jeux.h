@@ -1,7 +1,7 @@
-#define NB_JEUX 1
+#define NB_JEUX 4
 #define INDEX_JEUX  "\t1 - MORPION\n"\
                     "\t2 - MASTERMIND\n"\
-                    "\t3 - PENDUE\n"\
+                    "\t3 - LE PENDU\n"\
                     "\t4 - JUSTE PRIX\n"\
                     "\t0 - SORTIE\n"
 #define SORTIE 0

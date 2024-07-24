@@ -15,7 +15,7 @@ int main()
     afficherBibliotheque();
     choix = 0;
 
-     printf("\nA quel jeu voulez-vous jouer? >   \t");
+     printf("\nA quel jeu voulez-vous jouer? >\t");
      fflush(stdin);
      scanf("%d", &choix);
 

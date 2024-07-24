@@ -1,1 +1,1 @@
-void pendue();
+void pendu();

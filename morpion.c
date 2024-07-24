@@ -26,13 +26,13 @@ void morpion()
         //test de la grille
         if(victoire(grille, joueur) == 1)
         {
-            printf("Victoire du joueur %c\n", joueur);
+            printf("\n\n-- VICTOIRE DU JOUEUR %c --\n\n", joueur);
             dessinerGrille(grille);
             fin_partie = 1;
         }
         else if(grillePleine(grille) == 1)
         {
-            printf("Match null!\n");
+            printf("\n\n-- MATCH NUL --\n\n");
             dessinerGrille(grille);
             fin_partie = 1;
         }
