@@ -6,16 +6,16 @@ Game Library est un projet réalisé en mars 2024 pendant mon apprentissage du l
 
 ## Jeux disponibles
 1 - **Morpion**  
-![morpion](images/Morpion.png)  
+![morpion](images/morpion.png)  
   
 2 - **Mastermind**  
-![mastermind](images/MasterMind_erreur+rejouer.png)  
+![mastermind](images/master_mind.png)  
   
 3 - **Pendu**   
-![pendu](images/Pendu.png)    
+![pendu](images/pendu.png)    
   
 4 - **Juste Prix**  
-![juste_prix](images/Juste_prix.png)  
+![juste_prix](images/juste_prix.png)  
   
 Chaque jeu est soigneusement conçu pour *gérer tous les scénarios possibles*, y compris les cas de *victoire, de défaite, de mauvaise saisie utilisateur et de match nul* lorsque cela est pertinent. À la fin de chaque partie, le joueur a le choix de *rejouer* ou de *revenir à l'interface d'accueil.*  
 
