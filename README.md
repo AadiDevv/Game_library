@@ -1,18 +1,44 @@
 # Game Library
-
-Game library est un projet entièrement codé en langage C, offrant l’accès à l’utilisateur à une bibliothèque de jeux. À son lancement, le programme affiche une interface d'accueil dans le terminal, permettant de choisir et de jouer à 4 grands classiques.  
-
-*ACCEUIL*
+Game Library est un projet réalisé en mars 2024 pendant mon apprentissage du langage C. Entièrement codé en langage C, le projet offre à l’utilisateur l'accès à une bibliothèque de jeux. À son lancement, le programme affiche une interface d'accueil dans le terminal, lui permettant de faire son choix et de jouer à 4 grands classiques.
+  
+### Interface d'acceuil :
+![Interface d'acceuil](images/Acceuil.png)
 
 ## Jeux disponibles
 1 - **Morpion**  
+![morpion](images/Morpion.png)  
+  
 2 - **Mastermind**  
-3 - **Pendu**  
+![mastermind](images/MasterMind_erreur+rejouer.png)  
+  
+3 - **Pendu**   
+![pendu](images/Pendu.png)    
+  
 4 - **Juste Prix**  
-0 - Sortie  
+![juste_prix](images/Juste_prix.png)  
+  
+Chaque jeu est soigneusement conçu pour *gérer tous les scénarios possibles*, y compris les cas de *victoire, de défaite, de mauvaise saisie utilisateur et de match nul* lorsque cela est pertinent. À la fin de chaque partie, le joueur a le choix de *rejouer* ou de *revenir à l'interface d'accueil.*  
 
 
-Chaque jeu est soigneusement conçu pour gérer tous les scénarios possibles, y compris les cas de victoire, de défaite, de mauvaise saisie utilisateur et de match nul lorsque cela est pertinent. À la fin de chaque partie, le joueur a le choix de rejouer ou de revenir à l'interface d'accueil.
+## Fonctionnalités
+
+**Interface d'accueil :**
+   - Sélection des jeux.
+   - Option pour quitter le programme.
+
+**Jeux inclus :**
+   - Morpion : Jouez au classique tic-tac-toe.
+   - Mastermind : Devinez la combinaison de couleurs.
+   - Pendu : Trouvez le mot avant d'être "pendu".
+   - Juste Prix : Devinez le prix juste d'un article.
+
+**Gestion des cas de jeu :**
+   - Victoire : Reconnaît et annonce la victoire du joueur.
+   - Défaite : Gère les scénarios de défaite.
+   - Match nul : Reconnaît les situations de match nul (pour les jeux où cela s'applique).
+   - Mauvaise saisie utilisateur : Détecte et gère les entrées incorrectes.
+
+     
 
 ## Structure du projet
 Le projet est organisé de manière modulaire :
@@ -39,23 +65,6 @@ GameLibrary/
 │   ├── pendu.h
 ```
 
-## Fonctionnalités
-
-**Interface d'accueil :**
-   - Sélection des jeux.
-   - Option pour quitter le programme.
-
-**Jeux inclus :**
-   - Morpion : Jouez au classique tic-tac-toe.
-   - Mastermind : Devinez la combinaison de couleurs.
-   - Pendu : Trouvez le mot avant d'être "pendu".
-   - Juste Prix : Devinez le prix juste d'un article.
-
-**Gestion des cas de jeu :**
-   - Victoire : Reconnaît et annonce la victoire du joueur.
-   - Défaite : Gère les scénarios de défaite.
-   - Match nul : Reconnaît les situations de match nul (pour les jeux où cela s'applique).
-   - Mauvaise saisie utilisateur : Détecte et gère les entrées incorrectes.
 
 ## Comment jouer
 1. **Cloner le dépôt GitHub** :  
@@ -82,8 +91,8 @@ GameLibrary/
 5. **Suivre les instructions** :
    Une fois le programme lancé, suivez les instructions à l'écran pour choisir un jeu ou quitter la bibliothèque.
 
-*Je vous remercie d'avoir pris le temps de découvrir et d'utiliser GameLibrary. Si vous avez des questions, des suggestions ou des retours, n'hésitez pas à me contacter.*
-
+## Remerciements
+Je vous remercie d'avoir pris le temps de découvrir et d'utiliser GameLibrary.
 ## Contact
 
 Email : satyal.a.tech@gmail.com
