@@ -33,7 +33,7 @@ do
 
     for (int i=0; i<TAILLE_CODE; i++)
    {
-       int id_couleur = rand () % TAILLE_CODE;
+       int id_couleur = rand () % NB_COULEUR;
 
             int cmpt_presance = 0;
 //Cas ou la couleur est deja presente dans le code
@@ -53,7 +53,7 @@ do
    }
 
 //saisie utilisateur
-    printf("Trouver le code de %d couleurs\n ",TAILLE_CODE);
+    printf("\nTrouver le code de %d couleurs\n ",TAILLE_CODE);
     printf("COULEUR [ rouge(R) - bleu(B) - jaune(J) - vert(V) - orange(O) ]\n\n");
 
     tentative = 0;
@@ -70,7 +70,7 @@ do
 
         verif = 0;
         if (verifSaisie(COULEUR,saisie_ut,NB_COULEUR,TAILLE_CODE)!=0){
-              printf("\nERREUR un ou plusieurs caractere ne sont pas conforme\n\n");
+              printf("\n\t< ERREUR > un ou plusieurs caracteres ne sont pas conformes\n\n");
             verif++;
             }
         }while(verif != 0);
@@ -96,36 +96,40 @@ do
 
     if(c_bp == TAILLE_CODE)
     {
-        printf("\nBravo vouis avez trouver le code couleur\n");
-        printf("Vous etes le MASTERMIND");
+        printf("\nBravo vouis avez trouve le code couleur\n");
+        printf("Vous etes le MASTERMIND\n");
         break;
     }
     else
     {
         printf("\ntentative %d/%d\n",tentative,TENTATIVE_MAX);
-        printf("Couleur bien place : %d\n",c_bp);
-        printf("Couleur presente : %d\n\n",c_presente);
+        printf("Couleurs bien placees : %d\n",c_bp);
+        printf("Couleurs presentes : %d\n\n",c_presente);
+    }
+
+    //Message defaite
+    if(tentative == TENTATIVE_MAX)
+    {
+        printf("\nPERDU ! Le code couleur etait: ");
+        afficherCode(code,TAILLE_CODE);
     }
 
 
     }while(tentative < TENTATIVE_MAX);
 
-//Message defaite
-    if(tentative == TENTATIVE_MAX)
-    {
-        printf("\nPERDU ! Le code couleur etait: ");
-    }
-        afficherCode(code,TAILLE_CODE);
+
 
 
    //rejouer ?
         do
         {
-        printf("Rejouer?\n Oui(1)\tNon(2) :");
+        printf("\nRejouer?\n Oui(1)\tNon(2) :");
         scanf("%d",&rejouer);
 
-        if(rejouer != 2 && rejouer != 1)
-        printf("\nERREUR saisie\n");
+        if(rejouer != 2 && rejouer != 1){
+            printf("\nERREUR saisie\n");
+        }
+
         }while(rejouer != 2 && rejouer != 1);
 
 

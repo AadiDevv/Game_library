@@ -2,10 +2,19 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
-	<File name="pendu.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="outils.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="232" topLine="0" />
+			<Cursor1 position="133" topLine="3" />
 		</Cursor>
+	</File>
+	<File name="master_mind.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2915" topLine="121" />
+		</Cursor>
+		<Folding>
+			<Collapse line="137" />
+			<Collapse line="146" />
+		</Folding>
 	</File>
 	<File name="morpion.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
@@ -18,7 +27,7 @@
 	</File>
 	<File name="juste_prix.c" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1026" topLine="27" />
+			<Cursor1 position="998" topLine="33" />
 		</Cursor>
 	</File>
 	<File name="jeux.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -36,33 +45,24 @@
 			<Cursor1 position="138" topLine="1" />
 		</Cursor>
 	</File>
-	<File name="pendu.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="master_mind.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="15" topLine="0" />
+			<Cursor1 position="20" topLine="0" />
 		</Cursor>
-	</File>
-	<File name="master_mind.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2915" topLine="121" />
-		</Cursor>
-		<Folding>
-			<Collapse line="137" />
-			<Collapse line="146" />
-		</Folding>
 	</File>
 	<File name="jeux.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="132" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="master_mind.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="pendu.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="20" topLine="0" />
+			<Cursor1 position="232" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="outils.h" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="pendu.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="133" topLine="3" />
+			<Cursor1 position="15" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

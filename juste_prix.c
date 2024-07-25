@@ -50,7 +50,7 @@ do
              if((distance) > -5)
                 printf("\n%d.Tu brule! c'est un peu plus que %d\n\n", tentative,nb_ut);
             else if((distance) >= -10)
-                printf("\n%d.Tu te rappronche... c'est plus que %d\n\n", tentative,nb_ut);
+                printf("\n%d.Tu te rappronches... c'est plus que %d\n\n", tentative,nb_ut);
             else
                 printf("\n%d.C'est plus que %d\n\n", tentative,nb_ut);
         }
@@ -59,9 +59,9 @@ do
         //Cas -
         if (nb_ut > nb_aleatoire){
             if((distance) < 5)
-                printf("\n%d.Tu brule! c'est un peu moin que %d\n\n", tentative,nb_ut);
+                printf("\n%d.Tu brules! c'est un peu moin que %d\n\n", tentative,nb_ut);
             else if(distance <= 10)
-                printf("\n%d.Tu te rappronche... c'est moin que %d\n\n", tentative,nb_ut);
+                printf("\n%d.Tu te rappronches... c'est moin que %d\n\n", tentative,nb_ut);
             else
                 printf("\n%d.C'est moin que %d\n\n", tentative,nb_ut);
         }
@@ -70,7 +70,7 @@ do
         //Cas victoire
         if (nb_ut == nb_aleatoire)
            {
-            printf("\nBRAVO! Victoire en %d essaie! Le juste prix etait bien %d\n",tentative,nb_aleatoire);
+            printf("\nBRAVO! Victoire en %d essaies! Le juste prix etait bien %d\n",tentative,nb_aleatoire);
             break;
            }
 

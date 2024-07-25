@@ -171,7 +171,7 @@
 
 1711475920 c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\juste_prix.h
 
-1721828235 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\juste_prix.c
+1721915844 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\juste_prix.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
@@ -184,20 +184,20 @@
 	"morpion.h"
 	"outils.h"
 
-1721836973 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\master_mind.c
+1721917253 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\master_mind.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"master_mind.h"
 
-1721833703 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\morpion.c
+1721917198 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\morpion.c
 	<stdio.h>
 	<stdlib.h>
 	"morpion.h"
 
 1709053050 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\outils.c
 
-1721829586 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\pendu.c
+1721915844 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\pendu.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

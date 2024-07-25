@@ -15,7 +15,7 @@ void pendu()
     int pv, lt_trv;
 
     // Instructions
-    printf("Instructions => Le mot ne comporte pas d'espace, et est en MAJUSCULE\n");
+    printf("Instructions => Le mot ne comporte pas d'espaces, et est en MAJUSCULE\n");
 
     // Boucle de jeu
     do
@@ -33,6 +33,7 @@ void pendu()
         {
             // Saisie utilisateur
             printf("\nProposez une lettre ou un mot > ");
+
             fgets(saisie_ut, sizeof(saisie_ut), stdin);
             saisie_ut[strcspn(saisie_ut, "\n")] = '\0';  // Retirer le \n
 
