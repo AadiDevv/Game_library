@@ -1,8 +1,5 @@
-## Context  
-Ce projet a été réalisé en mars 2024 pendant mon apprentissage du langage C. Je vous invite à le découvrir, **enjoy**!
 # Game Library
-  
-Game library est un projet entièrement codé en langage C, offrant l’accès à l’utilisateur à une bibliothèque de jeux. À son lancement, le programme affiche une interface d'accueil dans le terminal, lui permettant de faire son choix et de jouer à 4 grands classiques.  
+Game Library est un projet réalisé en mars 2024 pendant mon apprentissage du langage C. Entièrement codé en langage C, le projet offre à l’utilisateur l'accès à une bibliothèque de jeux. À son lancement, le programme affiche une interface d'accueil dans le terminal, lui permettant de faire son choix et de jouer à 4 grands classiques.
   
 ### Interface d'acceuil :
 ![Interface d'acceuil](images/Acceuil.png)
@@ -95,8 +92,7 @@ GameLibrary/
    Une fois le programme lancé, suivez les instructions à l'écran pour choisir un jeu ou quitter la bibliothèque.
 
 ## Remerciements
-Je vous remercie d'avoir pris le temps de découvrir et d'utiliser GameLibrary. Ce projet a été conçu pour dans le cadre de mon apprentissage du C. Le tout avec des classiques intemporels des jeux de société et de réflexion. 
-**Satyal Aaditya**
+Je vous remercie d'avoir pris le temps de découvrir et d'utiliser GameLibrary.
 ## Contact
 
 Email : satyal.a.tech@gmail.com
