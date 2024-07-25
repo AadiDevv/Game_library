@@ -12,7 +12,7 @@
 
 void afficherBibliotheque()
 {
-    printf("\nMes jeux disponible (%d)\n",NB_JEUX);
+    printf("\nMes jeux disponibles (%d)\n\n",NB_JEUX);
     printf("%s\n",INDEX_JEUX);
 }
 

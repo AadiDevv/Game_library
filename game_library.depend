@@ -147,7 +147,7 @@
 	<string.h>
 	"pendu.h"
 
-1721827808 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\jeux.c
+1721919663 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\jeux.c
 	<stdio.h>
 	<stdlib.h>
 	"jeux.h"
@@ -197,7 +197,7 @@
 
 1709053050 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\outils.c
 
-1721915844 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\pendu.c
+1721918130 source:c:\users\tejsa\onedrive\desktop\formation programation\c\projet\game_library\pendu.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
