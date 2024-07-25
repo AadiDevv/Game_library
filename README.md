@@ -9,7 +9,7 @@ Game Library est un projet réalisé en mars 2024 pendant mon apprentissage du l
 ![morpion](images/Morpion.png)  
   
 2 - **Mastermind**  
-![mastermind](images/MasterMind_erreur+rejouer.png)  
+![mastermind](images/master_mind.png)  
   
 3 - **Pendu**   
 ![pendu](images/Pendu.png)    
