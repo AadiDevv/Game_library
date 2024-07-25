@@ -2,7 +2,7 @@
 Ce projet a été réalisé en mars 2024 pendant mon apprentissage du langage C. Je vous invite à le découvrir, **enjoy**!
 # Game Library
   
-Game library est un projet entièrement codé en langage C, offrant l’accès à l’utilisateur à une bibliothèque de jeux. À son lancement, le programme affiche une interface d'accueil dans le terminal, permettant de choisir et de jouer à 4 grands classiques.  
+Game library est un projet entièrement codé en langage C, offrant l’accès à l’utilisateur à une bibliothèque de jeux. À son lancement, le programme affiche une interface d'accueil dans le terminal, lui permettant de faire son choix et de jouer à 4 grands classiques.  
   
 ### Interface d'acceuil :
 ![Interface d'acceuil](images/Acceuil.png)
